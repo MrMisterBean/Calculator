@@ -5,8 +5,10 @@ const Home = () => {
   })
 
   return (
-    <div className="flex h-screen p-8 border-2 place-items-center">
-      <div className="grid w-full h-full grid-flow-row border-light grid-cols-3 gap-[2px] text-center border-2 bg-light text-light">
+    <div className="grid h-screen grid-flow-row p-8 border-2 grid-row-6 place-items-center">
+      {/* <textarea className="w-full row-span-1 text-6xl text-right h-2/3" /> */}
+      <p className="w-full row-span-1 text-6xl text-right bg-light h-2/3" contentEditable="true"> 965 </p>
+      <div className="grid w-full row-span-5 h-full grid-flow-row border-light grid-cols-3 grid-rows-3 gap-[2px] text-center border-2 bg-light text-light">
         <Grid />
       </div>
     </div>
